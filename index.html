@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Product list with cart</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <div class="navv">
+      <nav>
+      <h1 class="dessert">Desserts</h1>
+      </nav>
+    </div>
+
+    <div class="screen">
+      <div class="container">
+         <div class="box-1">
+          <img id="waffs" src="img\waffle.jpg" alt="waffle">
+          <div class="btn">
+            <button  id="cart" class="add-btn"><i class="fa fa-cart-plus"></i> 
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="texts">
+            <p class="text-1">Waffle</p>
+            <p class="text-2">Waffle with Berries</p>
+            <p id="price" class="text-3">$6.50</p>
+          </div>
+        </div>
+
+        <div class="box-2">
+          <img src="img\cremie-brulee.jpg" alt="waffle">
+          <div class="btn">
+            <button class="add-btn"><i class="fa fa-cart-plus"></i> 
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="texts">
+            <p class="text-1">Cr&egrave;me Br&ucirc;l&eacute;e</p>
+            <p class="text-2">Vanilla Bean Cr&egrave;me Br&ucirc;l&eacute;e</p>
+            <p class="text-3">$7.00</p>
+          </div>
+        </div>
+
+        <div class="box-3">
+          <img src="img\macaron.jpg" alt="waffle">
+          <div class="btn">
+            <button class="add-btn"><i class="fa fa-cart-plus"></i> 
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="texts">
+            <p class="text-1">Macaron</p>
+            <p class="text-2">Macaron Mix of Five</p>
+            <p class="text-3">$8.00</p>
+          </div>
+        </div>
+
+            
+
+        <div class="box-4">
+          <img src="img\tiramisu.jpg" alt="waffle">
+          <div class="btn">
+            <button class="add-btn"><i class="fa fa-cart-plus"></i> 
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="texts">
+            <p class="text-1">Tiramisu</p>
+            <p class="text-2">Classic Tiramisu</p>
+            <p class="text-3">$5.50</p>
+          </div>
+        </div>
+
+        <div class="box-5">
+          <img src="img\baklava.jpg" alt="waffle">
+          <div class="btn">
+            <button class="add-btn"><i class="fa fa-cart-plus"></i> 
+              Add to Cart
+            </button>
+          </div>
+
+          <div class="texts">
+            <p class="text-1">Baklava</p>
+            <p class="text-2">Pistachio Baklava</p>
+            <p class="text-3">$4.00</p>
+          </div>
+        </div>
+
+        <div class="box-6">
+         <img src="img\pie.jpg" alt="waffle">
+         <div class="btn">
+           <button class="add-btn"><i class="fa fa-cart-plus"></i> 
+             Add to Cart
+           </button>
+         </div>
+
+         <div class="texts">
+           <p class="text-1">Pie</p>
+           <p class="text-2">Lemon Meringue Pie</p>
+           <p class="text-3">$5.00</p>
+         </div>
+        </div>
+
+        <div class="box-7">
+         <img src="img\velvet-cake.jpg" alt="waffle">
+         <div class="btn">
+           <button class="add-btn"><i class="fa fa-cart-plus"></i> 
+             Add to Cart
+           </button>
+         </div>
+
+         <div class="texts">
+            <p class="text-1">Cake</p>
+            <p class="text-2">Red Velvet Cake</p>
+            <p class="text-3">$4.50</p>
+         </div>
+        </div>
+
+        <div class="box-8">
+         <img src="img\brownie.jpg" alt="waffle">
+         <div class="btn">
+          <button class="add-btn"><i class="fa fa-cart-plus"></i> 
+            Add to Cart
+          </button>
+         </div>
+
+         <div class="texts">
+          <p class="text-1">Brownie</p>
+          <p class="text-2">Salted Caramel Brownie</p>
+          <p class="text-3">$5.50</p>
+         </div>
+        </div>
+
+        <div class="box-9">
+         <img src="img\panna-cotta.jpg" alt="waffle">
+         <div class="btn">
+            <button class="add-btn">
+              <i class="fa fa-cart-plus"></i> Add to Cart
+            </button>
+          </div>
+
+          <div class="texts">
+            <p class="text-1">Panna Cotta</p>
+            <p class="text-2">Vanilla Panna Cotta</p>
+            <p class="text-3">$6.50</p>
+          </div>
+        </div>
+      </div>  
+
+      <div id="cart-container" class="box-10">
+
+        <div class="cartt">Your Cart (7)</div>
+
+        <div class="order-box">
+          <div class="main-order-1">
+            <div class="order-1">
+              <p class="classic">Classic Tiramisu</p>
+              <p class="tp">
+                <span class="times">1x</span>
+                <span class="at">@</span>
+                <span class="pri">$5.50</span>
+                <span class="price">$5.50</span>
+              </p>
+            </div>
+            <div class="cancel"><i id="exit" class="far fa-times-circle fa-lg"></i></div>
+          </div>
+
+          <div class="main-order-1">
+            <div class="order-1">
+              <p class="classic">Vanilla Bean Cr&egrave;me Br&ucirc;l&eacute;e</p>
+              <p class="tp">
+                <span class="times">4x</span>
+                <span class="at">@</span>
+                <span class="pri">$7.00</span>
+                <span class="price">$28.00</span>
+              </p>
+            </div>
+            <div class="cancel"><i id="ex" class="far fa-times-circle fa-lg"></i></div>
+          </div>
+
+          <div class="main-order-1">
+            <div class="order-1">
+              <p class="classic">Vanilla Panna Cotta</p>
+              <p class="tp">
+                <span class="times">2x</span>
+                <span class="at">@</span>
+                <span class="pri">$6.50</span>
+                <span class="price">$13.00</span>
+              </p>
+            </div>
+            <div class="cancel"><i id="exi" class="far fa-times-circle fa-lg"></i></div>
+          </div>
+        </div>
+
+        <div class="confirm-total">
+          <div class="total">
+           <div class="order-total">Order Total</div>
+           <div class="total-price">$46.50</div>
+          </div>
+
+          <div class="carbon">
+           <p class="neutral">
+             <i  id="tree" class="fa fa-tree"></i>
+             This is a <span class="cn">carbon-neutral</span>
+             delivery
+           </p>
+          </div>
+
+          <div class="confirm">
+           <button id="confirm-order">Confirm Order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal" class="modal hidden">
+      <div class="modal-box">
+
+       <div class="modal-header">
+         <i class="fas fa-check-circle success-icon"></i>
+         <h2>Order Confirmed</h2>
+         <p class="sub">We hope you enjoy your food!</p>
+       </div>
+
+       <div id="modal-items"></div>
+
+       <div class="modal-footer">
+         <div class="modal-total">
+           <span>Order Total</span>
+           <strong id="modal-total-price">$0.00</strong>
+         </div>
+
+         <button class="start-btn" onclick="startNewOrder()">
+           Start New Order
+         </button>
+       </div>
+
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
