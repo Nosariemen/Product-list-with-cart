@@ -4,6 +4,10 @@ body{
 
 }
 
+.navv{
+    margin-left: 270px;
+}
+
 .main{
     background-color: white;
 }
@@ -16,6 +20,8 @@ body{
 
 .screen{
     display: flex;
+    justify-content: center; 
+    margin-left: 25px;
 }
 
 .container{
